@@ -40,3 +40,5 @@ Suggests:
 Config/testthat/edition: 3
 Language: en-US
 VignetteBuilder: knitr
+URL: https://github.com/xinxiong0238/CUInetwork
+BugReports: https://github.com/xinxiong0238/CUInetwork/issues
