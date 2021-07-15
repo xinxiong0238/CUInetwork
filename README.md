@@ -9,7 +9,8 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of CUInetwork is to …
+The goal of CUInetwork is to generate an interactive shiny app that help
+visualize the network of codified &/ NLP concepts.
 
 ## Installation
 
