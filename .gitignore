@@ -1,0 +1,8 @@
+inst/doc
+/doc/
+/Meta/
+.httr-oauth
+.Rproj.user
+.Rhistory
+.Rdata
+.DS_Store

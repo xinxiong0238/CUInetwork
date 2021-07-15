@@ -1,0 +1,42 @@
+Package: CUInetwork
+Title: Network visualization for NLP and codified concepts
+Version: 1.0.0
+Authors@R: person('Xin', 'Xiong', email = 'xinxiong@hsph.harvard.edu', role = c('cre', 'aut'))
+Description: CUInetwork builds a shiny app to visualize the NLP/Codified concept network. Single and multiple centers are both acceptable.
+License: MIT + file LICENSE
+Imports: 
+    attempt,
+    config (>= 0.3.1),
+    dplyr,
+    data.table,
+    DT,
+    ggplot2,
+    glue,
+    golem (>= 0.3.1),
+    highcharter,
+    htmltools,
+    igraph,
+    magrittr,
+    plotly,
+    rlang,
+    shinybrowser,
+    shinycssloaders,
+    shinydashboard,
+    shinyWidgets,
+    stats,
+    stringr,
+    visNetwork,
+    utils
+Depends: R (>= 3.5.0), shiny (>= 1.6.0), shinyBS, Matrix
+Remotes: daattali/shinybrowser
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    rmarkdown,
+    knitr,
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+VignetteBuilder: knitr
