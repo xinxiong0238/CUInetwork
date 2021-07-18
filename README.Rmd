@@ -49,3 +49,8 @@ library(CUInetwork)
 # data_path = "the path to the app data (RDS format)"
 # run_app(data_path)
 ```
+
+```{r, eval=FALSE}
+run_app(data_path)
+```
+

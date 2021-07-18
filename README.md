@@ -38,17 +38,20 @@ This is a basic example which shows you how to run the CUInetwork app.
 Remember you need to get access to the data and save it to your local
 computer. Remember in order to guarantee some dependencies are loaded,
 you must use `library(CUInetwork)` beforehand, instead of directly
-running CUInetwork::run\_app(data\_path)!
+running CUInetwork::run\_app(data\_path)\!
 
 ``` r
+
 library(CUInetwork)
 #> Loading required package: shiny
-#> Warning: package 'shiny' was built under R version 4.0.5
 #> Loading required package: shinyBS
-#> Warning: package 'shinyBS' was built under R version 4.0.4
 #> Loading required package: Matrix
 
 
 # data_path = "the path to the app data (RDS format)"
 # run_app(data_path)
+```
+
+``` r
+run_app(data_path)
 ```
