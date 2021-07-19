@@ -41,17 +41,41 @@ you must use `library(CUInetwork)` beforehand, instead of directly
 running CUInetwork::run\_app(data\_path)\!
 
 ``` r
-
 library(CUInetwork)
-#> Loading required package: shiny
-#> Loading required package: shinyBS
-#> Loading required package: Matrix
-
-
-# data_path = "the path to the app data (RDS format)"
-# run_app(data_path)
-```
-
-``` r
+data_path = "the path to the app data (RDS format)"
 run_app(data_path)
 ```
+
+## App instructions
+
+To have a general understanding on how to get the CUInetwork app work,
+we show some main steps here. If you want to know some detailed app
+functionality, please refer to the ‘Get started’ tab.
+
+### Step 1: choose your center node(s)
+
+First of all, you need to specify your center node by clicking a row in
+the `Possible inputs` table containing in the dropdown button. Multiple
+inputs are acceptable. You can also use the search bar on the top or the
+filtering bar for each column (`id`, `terms`, `group`) to spot on your
+targets. A second round of searching will not mask the previous
+selection, which will be kept unless you de-select the row or use the
+“Unselect” button on the navigation bar. Once some rows are selected,
+the app will automatically display them as selected CUIs or nonCUI codes
+on the left.
+
+![Step 1](img/step1.png)
+
+### Step 2: show the connected network
+
+When you select your interested center node(s), simply click the green
+“Show” button to take a look at the connected network. Remember only
+nodes directly linked to your center node(s) will be shown. For example
+the following network only draws CUIs or codified concepts directly
+connected to phecode 174.1 or phecode 174.2. In terms of nodes that have
+indirect connection like A \<-\> intermediate node \<-\> center node,
+they are not in the interests of this app.
+
+![Step 1](img/step2.png)
+
+### Step 3: explore network information

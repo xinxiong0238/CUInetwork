@@ -20,7 +20,7 @@
 </head>
 <body data-spy="scroll" data-target="#toc">
     <div class="container template-home">
-      <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <header><div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
@@ -95,16 +95,17 @@
 <a href="#example" class="anchor"></a>Example</h2>
 <p>This is a basic example which shows you how to run the CUInetwork app. Remember you need to get access to the data and save it to your local computer. Remember in order to guarantee some dependencies are loaded, you must use <code><a href="https://github.com/xinxiong0238/CUInetwork">library(CUInetwork)</a></code> beforehand, instead of directly running CUInetwork::run_app(data_path)!</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/xinxiong0238/CUInetwork">CUInetwork</a></span><span class="op">)</span>
+<code class="sourceCode R">
+<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/xinxiong0238/CUInetwork">CUInetwork</a></span><span class="op">)</span>
 <span class="co">#&gt; Loading required package: shiny</span>
-<span class="co">#&gt; Warning: package 'shiny' was built under R version 4.0.5</span>
 <span class="co">#&gt; Loading required package: shinyBS</span>
-<span class="co">#&gt; Warning: package 'shinyBS' was built under R version 4.0.4</span>
 <span class="co">#&gt; Loading required package: Matrix</span>
 
 
 <span class="co"># data_path = "the path to the app data (RDS format)"</span>
 <span class="co"># run_app(data_path)</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/run_app.html">run_app</a></span><span class="op">(</span><span class="va">data_path</span><span class="op">)</span></code></pre></div>
 </div>
 </div>
   </div>
