@@ -25,7 +25,7 @@ Imports:
     stringr,
     visNetwork,
     utils
-Depends: R (>= 3.5.0), shiny (>= 1.6.0), shinyBS, Matrix
+Depends: R (>= 3.5.0), shiny, shinyBS, Matrix
 Remotes: daattali/shinybrowser
 Encoding: UTF-8
 LazyData: true

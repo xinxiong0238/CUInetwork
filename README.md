@@ -64,7 +64,7 @@ selection, which will be kept unless you de-select the row or use the
 the app will automatically display them as selected CUIs or nonCUI codes
 on the left.
 
-![Step 1](img/step1.png)
+![Step 1](man/figures/step1.png)
 
 ### Step 2: show the connected network
 
@@ -76,7 +76,7 @@ connected to phecode 174.1 or phecode 174.2. In terms of nodes that have
 indirect connection like A \<-\> intermediate node \<-\> center node,
 they are not in the interests of this app.
 
-![Step 2](img/step2.png)
+![Step 2](man/figures/step2.png)
 
 ### Step 3: explore network information
 
@@ -87,14 +87,14 @@ concepts) as two major classes of nodes, which we use circles and
 triangles to represent. For CUIs, By hovering your mouse onto any node,
 you will see the basic information including node ID and group name.
 
-![Step 3\_1](img/step3.jpg)
+![Step 3\_1](man/figures/step3.jpg)
 
 If hovering on an edge, a tooltip will show up with the connected node
 information and the cosine similarity. However, this is not recommended
 when the center node is surrounded by too many nodes, which easily leads
 to mistouch.
 
-![Step 3\_2](img/step3_2.jpg)
+![Step 3\_2](man/figures/step3_2.jpg)
 
 You can use the nagivation buttons on the bottom to control the size of
 the network and move the center of the graph. The same funcionality can
@@ -105,8 +105,8 @@ information on the graph (five columns: center node id/label, connected
 node id/label and cosine similarity). The questionmark button opens an
 instruction window.
 
-![Step 3\_3](img/step3_3.jpg) ![Step 3\_3](img/step3_4.jpg) ![Step
-3\_3](img/step3_5.jpg)
+![Step 3\_3](man/figures/step3_3.jpg) ![Step
+3\_4](man/figures/step3_4.jpg) ![Step 3\_5](man/figures/step3_5.jpg)
 
 #### Popup window
 
@@ -118,19 +118,19 @@ need to click on any node on the canvas and a popup window will then
 bring you more details (sunburst plot, static/interactive circular plot
 and data table).
 
-![Step 3\_3](img/step3_10.jpg)
+![Step 3\_10](man/figures/step3_10.jpg)
 
-![Step 3\_3](img/step3_6.jpg)
+![Step 3\_6](man/figures/step3_6.jpg)
 
-![Step 3\_3](img/step3_7.jpg)
+![Step 3\_7](man/figures/step3_7.jpg)
 
-![Step 3\_3](img/step3_8.jpg)
+![Step 3\_8](man/figures/step3_8.jpg)
 
-![Step 3\_3](img/step3_9.jpg)
+![Step 3\_9](man/figures/step3_9.jpg)
 
 Remember, if you click on a non-center node, there is a chance that the
 node is not in the interested list of the current app. If so, the popup
 window is not able to provide much more information. The “Possible
 inputs” table shows all nodes in the interested list.
 
-![Step 3\_3](img/step3_11.jpg)
+![Step 3\_11](man/figures/step3_11.jpg)
